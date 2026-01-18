@@ -41,6 +41,7 @@ function initGame() {
                     flippedCards[1].style.display = "none"
                     flippedCards = []
                     locGame = false
+                    checkWin()
                 }, 1000)
             } else {
                 setTimeout(() => {
@@ -55,6 +56,19 @@ function initGame() {
 }
 
 initGame()
+
+function checkWin() {
+    let reminig = Array.from(document.querySelectorAll(".cart")).filter(card => card.style.display !=="none")
+    if (reminig.length === 0) {
+        memoreyGame.style.display="none"
+        setTimeout(()=>{
+            memoreyGame.style.display=""
+            console.log("win");
+            
+            initGame()
+        },500)
+    }
+}
 
 let restardBtn = document.createElement("button")
 

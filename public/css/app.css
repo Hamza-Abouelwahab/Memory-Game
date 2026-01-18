@@ -13,6 +13,8 @@ body{
     background-color: rgba(0,0,0,0.5); 
     background-blend-mode: overlay;
     color: white;
+    height: 100%;
+    user-select: none;
 }
 
 
@@ -45,7 +47,7 @@ img{
     transform: rotateY(180deg)
 }
 .front{
-    background-color: rgb(90, 113, 118);
+    background-color: rgba(63, 72, 74, 0.775);
 }
 .front, .back {
     width: 100%;
