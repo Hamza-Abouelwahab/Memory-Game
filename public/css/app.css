@@ -7,8 +7,8 @@ body{
     flex-direction: column;
     align-items: center;
     gap: 2vw;
-    padding: 5vh 0;
-    background:url(../images/bg-memoryGame.jpg) no-repeat center;
+    padding: 4vh 0;
+    background:url(../images/bg-memoryGame.jpg) no-repeat ;
     background-size: cover;
     background-color: rgba(0,0,0,0.5); 
     background-blend-mode: overlay;
@@ -110,4 +110,14 @@ img{
 @keyframes fadeIn {
     0% { opacity: 0; transform: scale(0.95); }
     100% { opacity: 1; transform: scale(1); }
+}
+
+@media (max-width : 560px) {
+    #restardBtn{
+    width: 35%;
+}
+body{
+    gap: 5vh;
+}
+
 }
