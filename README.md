@@ -37,16 +37,26 @@ Click "Restart Game" to play again
 
 File Structure
 
-memory-game/
-│
-├─ index.html
-├─ style.css
-├─ app.js
-└─ images/
-   ├─ apple.png
-   ├─ banana.png
-   ├─ cherry.png
-   └─ fruit.png
+MEMORY-GAME/
+├── .vscode/
+├── public/
+│   ├── css/
+│   │   └── app.css
+│   ├── images/
+│   │   ├── apple.png
+│   │   ├── avocado.png
+│   │   ├── banana.png
+│   │   ├── bg-memoryGame.jpg
+│   │   ├── cherry.png
+│   │   ├── grape.png
+│   │   ├── orange.png
+│   │   ├── pineapple.png
+│   │   └── strawberry.png
+│   ├── js/
+│   │   └── app.js
+│   ├── pages/
+│   ├── index.html
+│   └── README.md
 
 
 Technologies Used
